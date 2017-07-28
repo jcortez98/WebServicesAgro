@@ -1,0 +1,19 @@
+{
+  "name": "webapiagronet",
+  "version": "1.0.0",
+  "description": "WebService de la aplicacion AgroNet",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Hugo Castillo",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.5.6",
+    "express": "^4.15.3",
+    "jsonwebtoken": "^7.4.1",
+    "mysql": "^2.13.0"
+  }
+}
